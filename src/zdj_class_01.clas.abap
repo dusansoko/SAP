@@ -5,6 +5,7 @@ CLASS zdj_class_01 DEFINITION
 
   PUBLIC SECTION.
     METHODS get_data.
+    METHODS insert_data.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -13,5 +14,7 @@ ENDCLASS.
 
 CLASS zdj_class_01 IMPLEMENTATION.
   METHOD get_data.
+  ENDMETHOD.
+    METHOD insert_data.
   ENDMETHOD.
 ENDCLASS.
